@@ -1,0 +1,28 @@
+page {
+  background-color: #dedede;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  margin: 0 15rpx;
+}
+
+.item image {
+  width: 100%;
+  margin: 4rpx 0;
+  border: 10rpx solid white;
+  /* 缓慢效果 */
+  transition: all 0.3s ease-in-out;
+}
+
+ /* 在小程序中作用似乎不大 */
+/* .image-hover {
+  cursor: pointer;
+  变大
+  transform: scale(1.05s); 
+  box-shadow: 0rpx 3rpx 2rpx 1rpx;
+} */

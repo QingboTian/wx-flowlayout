@@ -1,0 +1,16 @@
+<view class='container'>
+  <!-- 左容器 -->
+  <view class='item'>
+    <block wx:for="{{leftShowImages}}" wx:for-item="image" wx:key="index">
+      <image src='{{image.url}}' mode='widthFix'></image>
+    </block>
+  </view>
+
+  <!-- 右容器 -->
+  <view class='item'>
+    <block wx:for="{{rightShowImages}}" wx:for-item="image" wx:key="index">
+      <image src='{{image.url}}' mode='widthFix'></image>
+    </block>
+    
+  </view>
+</view>
